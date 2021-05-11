@@ -1,5 +1,5 @@
 import * as nacl from 'tweetnacl';
-import type {SignKeyPair} from 'tweetnacl';
+import type {SignKeypair} from 'tweetnacl';
 
 import {PublicKey} from './publickey';
 
@@ -18,11 +18,11 @@ export class Keypair {
   /**
    * @internal
    *
-   * Create a new keypair instance from a {@link SignKeyPair}.
+   * Create a new keypair instance from a {@link SignKeypair}.
    *
    * @param keypair ed25519 keypair
    */
-  constructor(private keypair: SignKeyPair) {}
+  constructor(private keypair: SignKeypair) {}
 
   /**
    * Generate a new random keypair

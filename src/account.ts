@@ -1,5 +1,5 @@
 import * as nacl from 'tweetnacl';
-import type {SignKeyPair as KeyPair} from 'tweetnacl';
+import type {SignKeypair as Keypair} from 'tweetnacl';
 
 import {toBuffer} from './util/to-buffer';
 import {PublicKey} from './publickey';
@@ -11,7 +11,7 @@ import {PublicKey} from './publickey';
  */
 export class Account {
   /** @internal */
-  _keypair: KeyPair;
+  _keypair: Keypair;
 
   /**
    * Create a new Account object
