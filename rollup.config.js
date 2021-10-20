@@ -151,7 +151,7 @@ function generateConfig(configType, format) {
 }
 
 export default [
-  // generateConfig('node'),
+  generateConfig('node'),
   generateConfig('browser', 'esm'),
   // generateConfig('browser', 'iife'),
 ];
